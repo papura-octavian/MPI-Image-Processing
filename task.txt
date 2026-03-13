@@ -1,0 +1,12 @@
+Proiect: Procesarea imaginilor (Image Processing)
+
+Limbaj de programare:
+- Python
+
+Librării:
+- mpi4py — pentru paralelizare folosind MPI
+- OpenCV (cv2) — pentru citirea, procesarea și salvarea imaginilor
+- NumPy — pentru lucrul eficient cu matricile de pixeli
+
+Descriere scurtă:
+Proiectul va realiza procesarea paralelă a imaginilor prin împărțirea imaginii în mai multe porțiuni, fiecare proces urmând să aplice operații de procesare pe partea sa. La final, rezultatele vor fi reunite într-o imagine finală. Scopul este reducerea timpului de procesare prin utilizarea execuției paralele.
