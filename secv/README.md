@@ -63,3 +63,4 @@ pip install -r req.txt
 ### `secv.py` - implementarea procesarii secventiale
 ### `req.txt` - lista de dependente Python
 ### `images/` - exemple de imagini de intrare si iesire
+### `GDOC.md` - documentatia proiectului: cerinte, configuratia masinii si rezultate experimentale
