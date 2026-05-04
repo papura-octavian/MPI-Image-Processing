@@ -1,6 +1,6 @@
-# Image Processing
+# Procesare de Imagini
 
-### The project will perform parallel image processing by dividing the image into multiple sections, with each process applying processing operations to its assigned portion. At the end, the results will be combined into a final image. The goal is to reduce the overall processing time by using parallel execution.
+### Proiectul realizeaza procesarea paralela a unei imagini prin impartirea acesteia in mai multe sectiuni, fiecare proces aplicand operatiile de procesare pe portiunea sa. La final, rezultatele sunt combinate intr-o imagine finala. Scopul este reducerea timpului total de procesare prin executie paralela.
 
 ### Grayscale
 
@@ -31,21 +31,22 @@ mpiexec -n 4 python3 main.py input.jpg invert.jpg invert
 mpiexec -n 4 python3 main.py input.jpg threshold.jpg threshold
 ```
 
-# Dependencies
+# Dependente
 
-### Py
+### Python
 
-Install the necessary requierments
+Instaleaza dependentele necesare:
 ```bash
 pip install -r req.txt
 ```
 
 ### Windows
 
-Need to download [MPI](https://www.microsoft.com/en-us/download/details.aspx?id=105289) and add to path 
+Este necesar sa descarci [MPI](https://www.microsoft.com/en-us/download/details.aspx?id=105289) si sa il adaugi in PATH.
 
-### Linux 
-Need to isntal dependences
+### Linux
+
+Instaleaza dependentele de sistem:
 
 ```bash
 sudo apt update
